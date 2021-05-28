@@ -15,6 +15,11 @@
    Icons
    ------------------------
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+
+
 .icon-sm {
   width: 40px !important;
   height: 40px !important;
@@ -2003,7 +2008,9 @@ STYLE SWITCHER FOR DEMO
  * 3. TYPE
  */
 body {
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
+  font-family: 'Nunito', sans-serif !important;
+
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;

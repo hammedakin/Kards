@@ -1,1 +1,6 @@
 /* your styles go here */
+
+.teams .cards {
+    border: none !important;
+    border-radius: 2rem ;
+}

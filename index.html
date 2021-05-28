@@ -21,7 +21,7 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="img/favicon.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -42,7 +42,7 @@
               <li class="nav-item"><a class="nav-link link-scroll active" href="#hero">Home <span class="sr-only">(current)</span></a></li>
               <li class="nav-item"><a class="nav-link link-scroll" href="#about">About</a></li>
               <li class="nav-item"><a class="nav-link link-scroll" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link link-scroll" href="#testimonials">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#testimonials">Teams</a></li>
             </ul>
           </div>
         </div>
@@ -53,7 +53,7 @@
       <div class="container">
         <div class="row py-5">
           <div class="col-lg-5 py-5">
-            <h1 class="font-weight-bold">Share your Contact Easily!!!</h1>
+            <h1 class="font-weight-bold wow animated fadeIn">Share your Contact Easily!!!</h1>
             <p class="my-4 text-muted">Kards enables you to share your all contact details in a contactless, virtual and easy way.</p>
             <ul class="list-inline mb-0">
               <li class="list-inline-item mb-2 mb-lg-0"><a class="btn btn-primary btn-lg px-4" href="#"> <i class="fab fa-google-play mr-3"></i>Google Play</a></li>
@@ -193,12 +193,37 @@
         </div>
       </section>
     </section>
+
+    <section class="teams">
+      <div class="container-fluid">
+        <div class="row text-center">
+
+          <div class="col-md-3">
+            <div class="card" style="border-radius: 1rem;">
+              <div class="card-img">
+                <img src="./img/4.jpeg" width="100%" style="border-radius: 1rem 1rem 0 0;">
+  
+              </div>
+              <div class="card-body py-5">
+                <h4>Anjola</h4>
+                <p>Frontend Developer</p>
+              </div>
+            </div>
+  
+  
+          </div>
+  
+      </div>
+
+      
+    </section>
+
     <section class="p-0" id="testimonials" style="background: url(img/testimonials-bg.png) no-repeat; background-size: 40% 100%; background-position: left center">
       <div class="container text-center">
-        <p class="h6 text-uppercase text-primary">Testimonials</p>
-        <h2 class="mb-5">What Our Clients Says?</h2>
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
+        <p class="h4 text-uppercase text-primary">Teams</p>
+        <!-- <h2 class="mb-5">Brains Behind the </h2> -->
+        
+          <!-- <div class="col-lg-8 mx-auto">
             <div class="owl-carousel owl-theme testimonials-slider">
               <div class="mx-3 mx-lg-5 my-5 pt-3">
                 <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
@@ -239,7 +264,7 @@
                     <p class="text-primary mb-0 text-small">Tech Developer</p>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -326,6 +351,12 @@
       injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
       
     </script>
+     <script type="text/javascript">
+      $( document ).ready(function() {
+      new WOW().init();
+    });
+      $( ".wow" ).addClass( "fadeIn ZoomIn" );</script>
+    
     <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   </body>
