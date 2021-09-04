@@ -4,3 +4,14 @@
     border: none !important;
     border-radius: 2rem ;
 }
+
+.teams .card {
+    border-radius: 15px;
+    /* margin-top: 4rem !important; */
+    }
+    
+    .teams .card img {
+      height: 20rem !important;
+      object-fit: cover !important;
+      }
+    
