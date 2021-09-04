@@ -21,7 +21,14 @@ const myForm = document.getElementById('myForm');
 
 myForm.addEventListener('submit', function (e){
     e.preventDefault();
-  
+    if (email.type === 'email'){
+        alert('sent')
+
+    }else {
+        alert('fill form correctly')
+
+    }
+    
 
     const formData = new FormData(this);
     const searchParams = new URLSearchParams();
@@ -33,7 +40,6 @@ myForm.addEventListener('submit', function (e){
         method: 'post',
         body: searchParams
     }).then(function (response) {
-        
         return response.text();
     }).then(function (text) {
         console.log(text);
